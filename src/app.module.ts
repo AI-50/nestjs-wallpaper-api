@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { BingWallpaperController } from './bing-wallpaper/bing-wallpaper.controller';
+import { BingWallpaperService } from './bing-wallpaper/bing-wallpaper.service';
 
 @Module({
   imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [BingWallpaperController],
+  providers: [BingWallpaperService],
 })
 export class AppModule {}
